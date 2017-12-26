@@ -9,7 +9,10 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "use-uglify-3.2.2": "npm i uglify-es@3.2.2 --save-exact && rm -rf package-lock.json node_modules && npm i && npm ls uglify-es",
+    "use-uglify-3.3.0": "npm i uglify-es@3.3.0 --save-exact && rm -rf package-lock.json node_modules && npm i && npm ls uglify-es",
+    "use-uglify-3.3.2": "npm i uglify-es@3.3.2 --save-exact && rm -rf package-lock.json node_modules && npm i && npm ls uglify-es"
   },
   "private": true,
   "dependencies": {
